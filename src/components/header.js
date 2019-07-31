@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import { Menu, Icon, Image, Sidebar } from 'semantic-ui-react'
-import { Donkey } from '../../content/assets/donkey.jpg'
+import Donkey from '../../content/assets/donkey.jpg'
 
 const theSidebar = () => {
 
