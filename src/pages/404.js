@@ -7,7 +7,7 @@ const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" />
     <h1>NOT FOUND</h1>
-    <iframe title="404" src="https://giphy.com/embed/XqL0uC2RUx9Hq" width="480" height="409" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/movie-50k-cloudy-with-a-chance-of-meatballs-XqL0uC2RUx9Hq">via GIPHY</a></p>
+    <iframe title="404" src="https://giphy.com/embed/3o7TKLIJ9UbAPsF9WU" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/seeso-3o7TKLIJ9UbAPsF9WU">via GIPHY</a></p>
     <p>Whatever you're looking for doesn't exist!</p>
   </Layout>
 )

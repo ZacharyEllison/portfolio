@@ -17,7 +17,7 @@ const theSidebar = () => {
           style={{background:"#1e90ff"}}
           width='thin'
         >
-          <Menu.Item as='a'>
+          <Menu.Item>
             <Image
               fluid
               alt="a donkey, zachary's spirit animal"
