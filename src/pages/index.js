@@ -1,71 +1,144 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
-
-import Bio from "../components/bio"
+import { Segment, Header, Image, List } from "semantic-ui-react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
+import Zachary from "../../content/assets/Zach-alone.jpg"
 
-class BlogIndex extends React.Component {
-  render() {
-    const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
+const IndexPage = () => {
 
-    return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
-        <Bio />
-        {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          return (
-            <div key={node.fields.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </div>
-          )
-        })}
-      </Layout>
-    )
-  }
+  return (
+    <Layout>
+      <SEO title="Home" />
+
+      <Segment>
+        <Image
+          src={ Zachary }
+          fluid
+          alt="A profile of Zachary Ellison"
+        />
+        <Header as='h1' style={{textAlign:"center"}}> Zachary Ellison </Header>
+      </Segment>
+
+      <Segment >
+        <Header as='h3' style={{textAlign: "center"}}>
+          Zachary is a father, partner, and creator.
+          He likes to spend his early mornings meditating and running, his days creating things that interest him, and his weekends with his daughter and family hiking.
+          When he has free time he reads or plays Overwatch on his computer.
+        </Header>
+      </Segment>
+
+      <Segment>
+        <Header as='h3' style={{textAlign: "center"}}>
+          Languages
+        </Header>
+        <List divided relaxed>
+          <List.Item>
+            <List.Icon name='python' size='large' verticalAlign='middle' />
+            <List.Content>
+              <List.Header> Python </List.Header>
+            </List.Content>
+          </List.Item>
+          <List.Item>
+            <List.Icon name='js' size='large' verticalAlign='middle' />
+            <List.Content>
+              <List.Header> Javascript </List.Header>
+            </List.Content>
+          </List.Item>
+          <List.Item>
+            <List.Icon name='react' size='large' verticalAlign='middle' />
+            <List.Content>
+              <List.Header> React </List.Header>
+            </List.Content>
+          </List.Item>
+          <List.Item>
+            <List.Icon name='arrow right' size='large' verticalAlign='middle' />
+            <List.Content>
+              <List.Header> Lua </List.Header>
+            </List.Content>
+          </List.Item>
+          <List.Item>
+            <List.Icon name='arrow right' size='large' verticalAlign='middle' />
+            <List.Content>
+              <List.Header> SQL </List.Header>
+            </List.Content>
+          </List.Item>
+          <List.Item>
+            <List.Icon name='arrow right' size='large' verticalAlign='middle' />
+            <List.Content>
+              <List.Header> C </List.Header>
+            </List.Content>
+          </List.Item>
+          <List.Item>
+            <List.Icon name='html5' size='large' verticalAlign='middle' />
+            <List.Content>
+              <List.Header> HTML/CSS </List.Header>
+            </List.Content>
+          </List.Item>
+        </List>
+      </Segment>
+      <Segment >
+        <Header as='h3' style={{textAlign: "center"}}>
+          Tools
+        </Header>
+        <List divided relaxed>
+          <List.Item>
+            <List.Icon name='arrow right' size='large' verticalAlign='middle' />
+            <List.Content>
+              <List.Header> Kubernetes </List.Header>
+            </List.Content>
+          </List.Item>
+          <List.Item>
+            <List.Icon name='docker' size='large' verticalAlign='middle' />
+            <List.Content>
+              <List.Header> Docker </List.Header>
+            </List.Content>
+          </List.Item>
+          <List.Item>
+            <List.Icon name='aws' size='large' verticalAlign='middle' />
+            <List.Content>
+              <List.Header> AWS </List.Header>
+            </List.Content>
+          </List.Item>
+          <List.Item>
+            <List.Icon name='arrow right' size='large' verticalAlign='middle' />
+            <List.Content>
+              <List.Header> Elasticsearch </List.Header>
+            </List.Content>
+          </List.Item>
+          <List.Item>
+            <List.Icon name='git' size='large' verticalAlign='middle' />
+            <List.Content>
+              <List.Header> Git </List.Header>
+            </List.Content>
+          </List.Item>
+          <List.Item>
+            <List.Icon name='arrow right' size='large' verticalAlign='middle' />
+            <List.Content>
+              <List.Header> Bootstrap </List.Header>
+            </List.Content>
+          </List.Item>
+          <List.Item>
+            <List.Icon name='arrow right' size='large' verticalAlign='middle' />
+            <List.Content>
+              <List.Header> Semantic UI </List.Header>
+            </List.Content>
+          </List.Item>
+          <List.Item>
+            <List.Icon name='arrow right' size='large' verticalAlign='middle' />
+            <List.Content>
+              <List.Header> Gatsby </List.Header>
+            </List.Content>
+          </List.Item>
+          <List.Item>
+            <List.Icon name='arrow right' size='large' verticalAlign='middle' />
+            <List.Content>
+              <List.Header> ZEIT Now </List.Header>
+            </List.Content>
+          </List.Item>
+        </List>
+      </Segment>
+    </Layout>
+  )
 }
 
-export default BlogIndex
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            description
-          }
-        }
-      }
-    }
-  }
-`
+export default IndexPage
