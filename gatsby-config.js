@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Zachary Ellison`,
+    title: `ZE`,
     author: `Zachary Ellison`,
     description: `Zachary Ellison's portfolio website`,
     siteUrl: `https://zacharyellison.com`,
@@ -55,7 +55,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Zachary Ellison Portfolio`,
-        short_name: `portfolio`,
+        short_name: `ZE`,
         start_url: `/`,
         background_color: `#F9FCFE`,
         theme_color: `#663399`,

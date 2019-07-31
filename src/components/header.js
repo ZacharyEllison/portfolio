@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
-import { Menu, Icon, Sidebar } from 'semantic-ui-react'
+import { Menu, Icon, Image, Sidebar } from 'semantic-ui-react'
+import { Donkey } from '../../content/assets/donkey.jpg'
 
 const theSidebar = () => {
 
@@ -16,8 +17,16 @@ const theSidebar = () => {
           style={{background:"#1e90ff"}}
           width='thin'
         >
+          <Menu.Item as='a'>
+            <Image
+              fluid
+              alt="a donkey, zachary's spirit animal"
+              src={ Donkey }
+            />
+          </Menu.Item>
           <Link to="/">
             <Menu.Item as='a'
+              style={{marginTop: `25%`}}
             >
               <Icon name='sun' />
               Zachary
