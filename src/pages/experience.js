@@ -26,34 +26,34 @@ const Education = () => (
       <Table celled>
         <Table.Header>
           <Table.Row>
-            <Table.Cell>
+            <Table.HeaderCell>
               Collaborated with the Analytics team on a variety of gameplay data tools to provide timely and actionable insights
-            </Table.Cell>
+            </Table.HeaderCell>
           </Table.Row>
           <Table.Row>
-            <Table.Cell>
+            <Table.HeaderCell>
               Active daily use of Python 3, SQL, Presto, Flask, React, Javascript, D3, Elasticsearch
-            </Table.Cell>
+            </Table.HeaderCell>
           </Table.Row>
           <Table.Row>
-            <Table.Cell>
+            <Table.HeaderCell>
               Maintained and supported a customized deployment of the open-source Redash dashboarding platform
-            </Table.Cell>
+            </Table.HeaderCell>
           </Table.Row>
           <Table.Row>
-            <Table.Cell>
+            <Table.HeaderCell>
               Created, iterated, and maintained an internal web tool to provide full-text search of data schemas
-            </Table.Cell>
+            </Table.HeaderCell>
           </Table.Row>
           <Table.Row>
-            <Table.Cell>
+            <Table.HeaderCell>
               Performed Numerous statistical analyses on player engagement data
-            </Table.Cell>
+            </Table.HeaderCell>
           </Table.Row>
           <Table.Row>
-            <Table.Cell>
+            <Table.HeaderCell>
               Implemented backend data pipeline to ingest various social media feeds (Reddit, Twitter) and perform realtme sentiment analysis and identify key influencers
-            </Table.Cell>
+            </Table.HeaderCell>
           </Table.Row>
         </Table.Header>
       </Table>
@@ -75,30 +75,30 @@ const Education = () => (
       <Table celled>
         <Table.Header>
           <Table.Row>
-            <Table.Cell>
+            <Table.HeaderCell>
               Created advertising materials and tactics for local events, increasing enrollment by 18%
-            </Table.Cell>
+            </Table.HeaderCell>
           </Table.Row>
           <Table.Row>
-            <Table.Cell>
+            <Table.HeaderCell>
               Led over 15 community events an dlocal organization meets
-            </Table.Cell>
+            </Table.HeaderCell>
           </Table.Row>
           <Table.Row>
-            <Table.Cell>
+            <Table.HeaderCell>
               Provided mentorship to recent graduates on their transition to college
-            </Table.Cell>
+            </Table.HeaderCell>
           </Table.Row>
           <Table.Row>
-            <Table.Cell>
+            <Table.HeaderCell>
               Produced social media content
-            </Table.Cell>
+            </Table.HeaderCell>
           </Table.Row>
         </Table.Header>
       </Table>
     </Segment>
 
-    
+
   </Layout>
 )
 
