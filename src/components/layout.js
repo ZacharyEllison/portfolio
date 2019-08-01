@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
-        <main style={{paddingLeft: `155px`}}>
+        <main style={{paddingLeft: `20%`}}>
           {children}
         </main>
       </div>

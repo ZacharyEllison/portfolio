@@ -1,7 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
 import { Menu, Icon, Sidebar } from 'semantic-ui-react'
-import Donkey from '../../content/assets/donkey.jpg'
 
 const theSidebar = () => {
 
@@ -14,8 +13,11 @@ const theSidebar = () => {
           vertical
           inverted
           visible
-          style={{background:"#1e90ff"}}
-          width='thin'
+          style={{
+            background:"#1e90ff",
+            width: `15%`,
+            minWidth: `130px`
+          }}
         >
           <Link to="/">
             <Menu.Item as='a'
