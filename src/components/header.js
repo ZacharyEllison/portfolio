@@ -20,15 +20,16 @@ const theSidebar = () => {
             minWidth: `130px`
           }}
         >
-          <Menu.Item as='a'>
+          <Menu.Item>
             <Image
               src={ Avatar }
               rounded
               centered
               size='small'
-              alt="A profile of Zachary Ellison"
+              alt="Zachary's boss wanted this gif made"
               style={{
-                transform: `rotate(-90deg)`
+                transform: `rotate(-90deg)`,
+                marginTop: `10px`
               }}
             />
           </Menu.Item>
