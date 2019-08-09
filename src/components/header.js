@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
-import { Menu, Icon, Sidebar } from 'semantic-ui-react'
+import { Menu, Icon, Sidebar, Image } from 'semantic-ui-react'
+import Avatar from "../../content/assets/animated.gif"
 
 const theSidebar = () => {
 
@@ -19,9 +20,21 @@ const theSidebar = () => {
             minWidth: `130px`
           }}
         >
+          <Menu.Item as='a'>
+            <Image
+              src={ Avatar }
+              rounded
+              centered
+              size='small'
+              alt="A profile of Zachary Ellison"
+              style={{
+                transform: `rotate(-90deg)`
+              }}
+            />
+          </Menu.Item>
           <Link to="/">
             <Menu.Item as='a'
-              style={{marginTop: `125%`}}
+              // style={{marginTop: `125%`}}
             >
               <Icon name='sun' />
               Zachary
@@ -51,13 +64,12 @@ const theSidebar = () => {
 
           <Menu.Item
             style={{
-              position: "absolute",
+              marginTop: `100%`,
+              padding: `15px`,
               bottom: `5px`
             }}
           >
-            Zachary Ellison © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+            Zachary Ellison © {new Date().getFullYear()}
           </Menu.Item>
         </Sidebar>
     </div>

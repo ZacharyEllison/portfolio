@@ -21,6 +21,19 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-transformer-yaml`,
+      options: {
+        typeName: ({ node, object, isArray }) => object.purpose,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/`,
+        name: `objects`,
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [

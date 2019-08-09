@@ -1,0 +1,163 @@
+- purpose: quip
+  name: bio
+  quip: "Zachary is a father, partner, and creator.
+            He likes to spend his early mornings meditating and running, his days creating things that interest him, and his weekends with his daughter and family hiking.
+            When he has free time he reads or plays Overwatch on his computer."
+
+- purpose: tool
+  name: Docker
+  icon: docker
+  p: 100
+  work: false
+  capable: false
+  comfort: true
+
+- purpose: tool
+  name: Elasticsearch
+  icon: arrow right
+  p: 100
+  work: false
+  capable: false
+  comfort: true
+
+- purpose: tool
+  name: Git
+  icon: git
+  p: 100
+  work: false
+  capable: false
+  comfort: true
+
+- purpose: tool
+  name: Semantic UI
+  icon: arrow right
+  p: 100
+  work: false
+  capable: false
+  comfort: true
+
+- purpose: tool
+  name: Kubernetes
+  icon: arrow right
+  p: 50
+  work: false
+  capable: true
+  comfort: false
+
+- purpose: tool
+  name: ZEIT Now
+  icon: arrow right
+  p: 50
+  work: false
+  capable: true
+  comfort: false
+
+- purpose: tool
+  name: AWS
+  icon: aws
+  p: 25
+  work: true
+  capable: false
+  comfort: false
+
+- purpose: tool
+  name: Gatsby
+  icon: arrow right
+  p: 25
+  work: true
+  capable: false
+  comfort: false
+
+- purpose: language
+  name: Python
+  icon: python
+  p: 100
+  work: false
+  capable: false
+  comfort: true
+
+- purpose: language
+  name: SQL
+  icon: arrow right
+  p: 100
+  work: false
+  capable: false
+  comfort: true
+
+- purpose: language
+  name: Javascript
+  p: 50
+  icon: js
+  work: false
+  capable: true
+  comfort: false
+
+- purpose: language
+  name: React
+  icon: react
+  p: 50
+  work: false
+  capable: true
+  comfort: false
+
+- purpose: language
+  name: Lua
+  icon: arrow right
+  p: 50
+  work: false
+  capable: true
+  comfort: false
+
+- purpose: language
+  name: HTML/CSS
+  icon: html5
+  p: 50
+  work: false
+  capable: true
+  comfort: false
+
+- purpose: language
+  name: C
+  icon: arrow right
+  p: 25
+  work: true
+  capable: false
+  comfort: false
+
+- purpose: school
+  margin: "30px"
+  name: Harvard University
+  degree: Bachelor's in Computer Science
+  p: 50
+  indication: true
+  year: "Current Year: Junior"
+  highlight: Relevant Coursework
+  coursework: [Intro to Computer Science, Multivariable Calculus, Linear Algebra, Computer Aided Machine Design, Spanish]
+
+- purpose: school
+  margin: "30px"
+  name: Early College of Arvada
+  degree: High School Diploma
+  p: 100
+  indication: false
+  year: "Graduated: May, 2016"
+  highlight: Awards and Recognitions
+  coursework: [Valedictorian, National Honor Society, Director's Recognition of Valor, Director's Recognition of Perserverance, "President of Construo: Literary Magazine"]
+
+- purpose: job
+  margin: "30px"
+  name: Activision
+  title: Analytics Intern
+  p: 95
+  indication: true
+  time: "September 2018 - August 2019"
+  work: ["Collaborated with the Analytics team on a variety of gameplay data tools to provide timely and actionable insights", "Active daily use of Python 3, SQL, Presto, Flask, React, Javascript, D3, Elasticsearch", "Maintained and supported a customized deployment of the open-source Redash dashboarding platform", "Created, iterated, and maintained an internal web tool to provide full-text search of data schemas", "Performed Numerous statistical analyses on player engagement data", "Implemented backend data pipeline to ingest various social media feeds (Reddit, Twitter) and perform realtme sentiment analysis and identify key influencers"]
+
+- purpose: job
+  margin: "30px"
+  name: Early College of Arvada
+  title: Community Outreach Intern
+  p: 100
+  indication: False
+  time: "June 2017 - August 2017"
+  work: ["Created advertising materials and tactics for local events, increasing enrollment by 18%", "Led over 15 community events an dlocal organization meets", "Provided mentorship to recent graduates on their transition to college", "Produced weekly and event-based social media content"]

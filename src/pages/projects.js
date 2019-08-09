@@ -13,7 +13,7 @@ class Projects extends React.Component {
     const posts = data.allMarkdownRemark.edges
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={data.location} title={siteTitle}>
         <SEO title="Projects" />
           <Segment>
             <Header as='h1'

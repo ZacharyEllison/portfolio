@@ -1,105 +1,70 @@
 import React from "react"
+import { graphql } from "gatsby"
 import { Segment, Header, Progress, Table } from "semantic-ui-react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const Education = () => (
-  <Layout>
-    <SEO title="Experience" />
-    <Segment>
-      <Header as='h1' style={{textAlign:"center"}}> Experience </Header>
-    </Segment>
+export const eduQuery = graphql`
+  query {
+    allJob {
+      edges {
+        node {
+          margin
+          name
+          title
+          p
+          indication
+          time
+          work
+        }
+      }
+    }
+  }
+`
 
-    <Segment
-      attached='top'
-      >
-      <Header as='h2' style={{textAlign:"center"}}> Activision Blizzard </Header>
-      <Header as='h3' style={{textAlign:"center"}}> Analytics Intern </Header>
+class Experience extends React.Component {
+  render () {
+    const { data } = this.props
+    const jobs = data.allJob.edges
 
-      <Progress percent={90} indicating style={{marginTop:`25px`}}> September 2018 - August 2019 </Progress>
-
-    </Segment>
-
-    <Segment
-      attached='bottom'
-      >
-      <Table celled>
-        <Table.Header>
-          <Table.Row>
-            <Table.HeaderCell>
-              Collaborated with the Analytics team on a variety of gameplay data tools to provide timely and actionable insights
-            </Table.HeaderCell>
-          </Table.Row>
-          <Table.Row>
-            <Table.HeaderCell>
-              Active daily use of Python 3, SQL, Presto, Flask, React, Javascript, D3, Elasticsearch
-            </Table.HeaderCell>
-          </Table.Row>
-          <Table.Row>
-            <Table.HeaderCell>
-              Maintained and supported a customized deployment of the open-source Redash dashboarding platform
-            </Table.HeaderCell>
-          </Table.Row>
-          <Table.Row>
-            <Table.HeaderCell>
-              Created, iterated, and maintained an internal web tool to provide full-text search of data schemas
-            </Table.HeaderCell>
-          </Table.Row>
-          <Table.Row>
-            <Table.HeaderCell>
-              Performed Numerous statistical analyses on player engagement data
-            </Table.HeaderCell>
-          </Table.Row>
-          <Table.Row>
-            <Table.HeaderCell>
-              Implemented backend data pipeline to ingest various social media feeds (Reddit, Twitter) and perform realtme sentiment analysis and identify key influencers
-            </Table.HeaderCell>
-          </Table.Row>
-        </Table.Header>
-      </Table>
-    </Segment>
-
-    <Segment
-      attached='top'
-      >
-      <Header as='h2' style={{textAlign:"center"}}> Early College of Arvada </Header>
-      <Header as='h3' style={{textAlign:"center"}}> Community Outreach Intern </Header>
-
-      <Progress percent={100} indicating style={{marginTop:`25px`}}> June 2017 - August 2017 </Progress>
-
-    </Segment>
-
-    <Segment
-      attached='bottom'
-      >
-      <Table celled>
-        <Table.Header>
-          <Table.Row>
-            <Table.HeaderCell>
-              Created advertising materials and tactics for local events, increasing enrollment by 18%
-            </Table.HeaderCell>
-          </Table.Row>
-          <Table.Row>
-            <Table.HeaderCell>
-              Led over 15 community events an dlocal organization meets
-            </Table.HeaderCell>
-          </Table.Row>
-          <Table.Row>
-            <Table.HeaderCell>
-              Provided mentorship to recent graduates on their transition to college
-            </Table.HeaderCell>
-          </Table.Row>
-          <Table.Row>
-            <Table.HeaderCell>
-              Produced social media content
-            </Table.HeaderCell>
-          </Table.Row>
-        </Table.Header>
-      </Table>
-    </Segment>
+    return (  
+      <Layout>
+        <SEO title="Experience" />
+        <Segment>
+          <Header as='h1' style={{textAlign:"center"}}> Experience </Header>
+        </Segment>
 
 
-  </Layout>
-)
+        {jobs.map(({ node }) => {
+          return (
+            <div>
+              <Segment attached='top' style={{marginTop: node.margin}}>
+                <Header as='h2' style={{textAlign:"center"}}> { node.name } </Header>
+                <Header as='h3' style={{textAlign:"center"}}> { node.title } </Header>
 
-export default Education
+                <Progress percent={ node.p } indicating={ node.indication } style={{marginTop:`25px`}}> { node.time } </Progress>
+
+              </Segment>
+
+              <Segment attached='bottom'>
+                <Table celled>
+                  <Table.Header>
+                    { node.work.map(activity => (
+                      <Table.Row>
+                        <Table.HeaderCell>
+                          { activity }
+                        </Table.HeaderCell>
+                      </Table.Row>
+                    ))}
+                  </Table.Header>
+                </Table>
+              </Segment>
+            </div>
+          )
+        })}
+      </Layout>
+    )
+  }
+}
+
+export default Experience
