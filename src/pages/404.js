@@ -1,14 +1,30 @@
 import React from "react"
 
 import Layout from "../components/layout"
+import { Segment, Header, Image } from "semantic-ui-react"
 import SEO from "../components/seo"
+import Avatar from "../../content/assets/animated.gif"
 
 const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" />
-    <h1>NOT FOUND</h1>
-    <iframe title="404" src="https://giphy.com/embed/3o7TKLIJ9UbAPsF9WU" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/seeso-3o7TKLIJ9UbAPsF9WU">via GIPHY</a></p>
-    <p>Whatever you're looking for doesn't exist!</p>
+    <Segment style={{marginTop:`5%`}}>
+      <Header style={{textAlign: `center`}} as='h1'>NOT FOUND</Header>
+      <Image
+              src={ Avatar }
+              rounded
+              centered
+              fluid
+              size='medium'
+              alt="Zachary's boss wanted this gif made"
+              style={{
+                transform: `rotate(-90deg)`,
+                marginTop: `50px`,
+                marginBottom: `75px`
+              }}
+            />
+      <Header style={{textAlign: `center`}} as='h3'>It was worth a shot!</Header>
+    </Segment>
   </Layout>
 )
 

@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
-import { Menu, Icon, Sidebar, Image } from 'semantic-ui-react'
-import Avatar from "../../content/assets/animated.gif"
+import { Menu, Icon, Sidebar } from 'semantic-ui-react'
+// import Avatar from "../../content/assets/animated.gif"
 
 const theSidebar = () => {
 
@@ -20,7 +20,7 @@ const theSidebar = () => {
             minWidth: `130px`
           }}
         >
-          <Menu.Item>
+          {/* <Menu.Item>
             <Image
               src={ Avatar }
               rounded
@@ -32,10 +32,10 @@ const theSidebar = () => {
                 marginTop: `10px`
               }}
             />
-          </Menu.Item>
+          </Menu.Item> */}
           <Link to="/">
             <Menu.Item as='a'
-              // style={{marginTop: `125%`}}
+              style={{marginTop:`125%`}}
             >
               <Icon name='sun' />
               Zachary
