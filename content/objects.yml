@@ -139,7 +139,7 @@
   name: Early College of Arvada
   degree: High School Diploma
   p: 100
-  indication: false
+  indication: true
   year: "Graduated: May, 2016"
   highlight: Awards and Recognitions
   coursework: [Valedictorian, National Honor Society, Director's Recognition of Valor, Director's Recognition of Perserverance, "President of Construo: Literary Magazine"]
@@ -158,6 +158,6 @@
   name: Early College of Arvada
   title: Community Outreach Intern
   p: 100
-  indication: False
+  indication: true
   time: "June 2017 - August 2017"
   work: ["Created advertising materials and tactics for local events, increasing enrollment by 18%", "Led over 15 community events an dlocal organization meets", "Provided mentorship to recent graduates on their transition to college", "Produced weekly and event-based social media content"]
