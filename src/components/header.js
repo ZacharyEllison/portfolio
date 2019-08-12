@@ -65,7 +65,7 @@ const theSidebar = () => {
 
           <Menu.Item
             style={{
-              marginTop: `100%`,
+              marginTop: `50%`,
               padding: `15px`,
               bottom: `5px`
             }}
