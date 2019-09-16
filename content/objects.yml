@@ -128,7 +128,7 @@
   margin: "30px"
   name: Harvard University
   degree: Bachelor's in Computer Science
-  p: 50
+  p: 60
   indication: true
   year: "Current Year: Junior"
   highlight: Relevant Coursework
@@ -148,7 +148,7 @@
   margin: "30px"
   name: Activision
   title: Analytics Intern
-  p: 95
+  p: 100
   indication: true
   time: "September 2018 - August 2019"
   work: ["Active daily use of Python 3, SQL, Presto, Flask, React, Javascript, D3, Elasticsearch", "Collaborated with the Analytics team on a variety of gameplay data tools to provide timely and actionable insights", "Maintained and supported a customized deployment of the open-source Redash dashboarding platform", "Created, iterated, and maintained an internal web tool to provide full-text search of 25174 versions of 2115 data schemas", "Performed Numerous statistical analyses on player engagement data, including in-game-time for over 38million users", "Implemented backend data pipeline to ingest various social media feeds (Reddit, Twitter) with low latency and perform realtme sentiment analysis and identify key influencers"]
