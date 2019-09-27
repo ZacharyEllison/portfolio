@@ -119,9 +119,17 @@
 - purpose: language
   name: C
   icon: arrow right
-  p: 25
-  work: true
-  capable: false
+  p: 50
+  work: false
+  capable: true
+  comfort: false
+
+- purpose: language
+  name: C++
+  icon: arrow right
+  p: 50
+  work: false
+  capable: true
   comfort: false
 
 - purpose: school
