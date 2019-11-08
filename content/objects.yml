@@ -140,7 +140,7 @@
   indication: true
   year: "Current Year: Junior"
   highlight: Relevant Coursework
-  coursework: [Intro to Computer Science, Multivariable Calculus, Linear Algebra, Computer Aided Machine Design, Spanish]
+  coursework: [Statistics, Systems Programming and Machine Organization, Data Structures and Algorithms, Multivariable Calculus, Spanish]
 
 - purpose: school
   margin: "30px"
