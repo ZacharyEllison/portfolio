@@ -109,6 +109,14 @@
   comfort: false
 
 - purpose: language
+  name: OCaml
+  icon: arrow right
+  p: 75
+  work: false
+  capable: true
+  comfort: false
+
+- purpose: language
   name: HTML/CSS
   icon: html5
   p: 50
