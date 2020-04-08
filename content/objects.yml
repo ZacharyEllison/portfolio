@@ -167,6 +167,15 @@
   year: "Graduated: May, 2016"
   highlight: Awards and Recognitions
   coursework: [Valedictorian, National Honor Society, Director's Recognition of Valor, Director's Recognition of Perserverance, "President of Construo: Literary Magazine"]
+  
+  - purpose: job
+    margin: "30px"
+    name: Boulder QA (Remote)
+    title: QA Engineer
+    p: 75
+    indication: true
+    time: "January 2020 - Present"
+    work: ["QA on over 300 tests", "Daily utilization of Google G-Suite, JIRA, Slack for distributed team work", "Manipulated Xamarin based E-Commerce app on 5 devices of iOS and Android OS versions", "Found and fixed over 20 bugs in QA support"]
 
 - purpose: job
   margin: "30px"
