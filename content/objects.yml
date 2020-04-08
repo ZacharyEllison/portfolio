@@ -117,6 +117,14 @@
   comfort: false
 
 - purpose: language
+  name: LaTeX
+  icon: superscript
+  p: 75
+  work: false
+  capable: true
+  comfort: false
+
+- purpose: language
   name: HTML/CSS
   icon: html5
   p: 50
