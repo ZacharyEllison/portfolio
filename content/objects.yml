@@ -115,40 +115,40 @@
   work: false
   capable: true
   comfort: false
-
-- purpose: language
-  name: LaTeX
-  icon: superscript
-  p: 75
-  work: false
-  capable: true
-  comfort: false
-
-- purpose: language
+  
+  - purpose: language
   name: HTML/CSS
   icon: html5
   p: 50
   work: false
   capable: true
   comfort: false
-
-- purpose: language
+  
+  - purpose: language
   name: C
   icon: arrow right
   p: 50
   work: false
   capable: true
   comfort: false
-
-- purpose: language
+  
+  - purpose: language
   name: C++
   icon: arrow right
   p: 50
   work: false
   capable: true
   comfort: false
-
-- purpose: school
+  
+  - purpose: language
+    name: LaTeX
+    icon: superscript
+    p: 25
+    work: true
+    capable: false
+    comfort: false
+  
+  - purpose: school
   margin: "30px"
   name: Harvard University
   degree: Bachelor's in Computer Science
