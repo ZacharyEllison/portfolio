@@ -156,7 +156,7 @@
   indication: true
   year: "Current Year: Junior"
   highlight: Relevant Coursework
-  coursework: [Statistics, Systems Programming and Machine Organization, Data Structures and Algorithms, Multivariable Calculus, Spanish]
+  coursework: [Statistics, Systems Programming and Machine Organization, Networking at Scale, Abstraction and Design in Computing, Discrete Mathematics, Linear Algebra, Multivariable Calculus, Spanish]
 
 - purpose: school
   margin: "30px"
