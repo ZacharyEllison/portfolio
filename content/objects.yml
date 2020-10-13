@@ -152,11 +152,11 @@
   margin: "30px"
   name: Harvard University
   degree: Bachelor's in Computer Science
-  p: 60
+  p: 75
   indication: true
   year: "Current Year: Junior"
   highlight: Relevant Coursework
-  coursework: [Statistics, Systems Programming and Machine Organization, Networking at Scale, Abstraction and Design in Computing, Discrete Mathematics, Linear Algebra, Multivariable Calculus, Spanish]
+  coursework: [Statistics, Systems Programming and Machine Organization, Networking at Scale, Abstraction and Design in Computing, Discrete Mathematics, Theoretical Computer Science, Systems Development, Spanish]
 
 - purpose: school
   margin: "30px"
@@ -175,7 +175,7 @@
   p: 75
   indication: true
   time: "January 2020 - Present"
-  work: ["QA on over 300 tests", "Daily utilization of Google G-Suite, JIRA, Slack for distributed team work", "Manipulated Xamarin based E-Commerce app on 5 devices of iOS and Android OS versions", "Found and fixed over 20 bugs in QA support"]
+  work: ["QA on over 300 tests", "Daily utilization of Google G-Suite, JIRA, Slack, Microsoft Teams for distributed team work", "Manipulated E-Commerce app on 5 devices of iOS and Android OS versions", "Found and fixed over 20 bugs in QA support", "Made use of Sitecore and Frontify for managing and testing web designs"]
 
 - purpose: job
   margin: "30px"
