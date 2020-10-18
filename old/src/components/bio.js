@@ -7,7 +7,7 @@ import { rhythm } from "../utils/typography"
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
-      avatar: file(absolutePath: { regex: "/Zach-alone.jpg/" }) {
+      // avatar: file(absolutePath: { regex: "/Zach-alone.jpg/" }) {
         childImageSharp {
           fixed(width: 75, height: 100) {
             ...GatsbyImageSharpFixed
