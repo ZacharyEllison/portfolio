@@ -1,0 +1,210 @@
+{
+    "languages":
+    [
+        {
+            "name": "Python",
+            "icon": "python",
+            "progress": 100,
+            "comfort": "expert",
+            "year": "5"
+        },
+        {
+            "name": "SQL",
+            "icon": "arrow right",
+            "progress": 100,
+            "comfort": "comfortable",
+            "year": "3"
+        },
+        {
+            "name": "C",
+            "icon": "arrow right",
+            "progress": 50,
+            "comfort": "capable",
+            "year": "2"
+        },
+        {
+            "name": "C++",
+            "icon": "arrow right",
+            "progress": 50,
+            "comfort": "capable",
+            "year": "2"
+        },
+        {
+            "name": "OCaml",
+            "icon": "arrow right",
+            "progress": 75,
+            "comfort": "capable",
+            "year": "2"
+        },
+        {
+            "name": "Lua",
+            "icon": "arrow right",
+            "progress": 75,
+            "comfort": "capable",
+            "year": "2"
+        },
+        {
+            "name": "Javascript",
+            "icon": "js",
+            "progress": 75,
+            "comfort": "comfortable",
+            "year": "3"
+        },
+        {
+            "name": "React",
+            "icon": "react",
+            "progress": 75,
+            "comfort": "comfortable",
+            "year": "3"
+        },
+        {
+            "name": "HTML/CSS",
+            "icon": "html5",
+            "progress": 75,
+            "comfort": "comfortable",
+            "year": "3"
+        },
+        {
+            "name": "LaTeX",
+            "icon": "superscript",
+            "progress": 50,
+            "comfort": "capable",
+            "year": "2"
+        },
+        {
+            "name": "Bash",
+            "icon": "terminal",
+            "progress": 75,
+            "comfort": "comfortable",
+            "year": "4"
+        }
+    ],
+    "tools":
+    [
+        {
+            "name": "Git",
+            "icon": "git",
+            "progress": 100,
+            "comfort": "comfortable",
+            "year": "4"
+        },
+        {
+            "name": "Docker",
+            "icon": "docker",
+            "progress": 100,
+            "comfort": "comfortable",
+            "year": "4"
+        },
+        {
+            "name": "AWS",
+            "icon": "aws",
+            "progress": 50,
+            "comfort": "capable",
+            "year": "2"
+        },
+        {
+            "name": "Jenkins",
+            "icon": "jenkins",
+            "progress": 50,
+            "comfort": "capable",
+            "year": "1"
+        },
+        {
+            "name": "TravisCI",
+            "icon": "travisci",
+            "progress": 50,
+            "comfort": "capable",
+            "year": "1"
+        },
+        {
+            "name": "codecov",
+            "icon": "codecov",
+            "progress": 50,
+            "comfort": "capable",
+            "year": "1"
+        },
+        {
+            "name": "JIRA",
+            "icon": "right arrow",
+            "progress": 75,
+            "comfort": "comfortable",
+            "year": "2"
+        }
+    ],
+    "databases":
+    [
+        {
+            "name": "PostgreSQL",
+            "icon": "postgres",
+            "progress": 75,
+            "comfort": "comfortable",
+            "year": "3"
+        },
+        {
+            "name": "SQLite",
+            "icon": "sqlite",
+            "progress": 75,
+            "comfort": "comfortable",
+            "year": "2"
+        },
+        {
+            "name": "MongoDB",
+            "icon": "mongodb",
+            "progress": 25,
+            "comfort": "workable",
+            "year": "1"
+        },
+        {
+            "name": "Elasticsearch",
+            "icon": "elasticsearch",
+            "progress": 50,
+            "comfort": "capable",
+            "year": "2"
+        }
+    ],
+    "frameworks":
+    [
+        {
+            "name": "Flask",
+            "icon": "flask",
+            "progress": 100,
+            "comfort": "expert",
+            "year": "4"
+        },
+        {
+            "name": "Pandas",
+            "icon": "panda",
+            "progress": 75,
+            "comfort": "comfortable",
+            "year": "3"
+        },
+        {
+            "name": "Matplotlib",
+            "icon": "right arrow",
+            "progress": 50,
+            "comfort": "capable",
+            "year": "2"
+        },
+        {
+            "name": "NumPy",
+            "icon": "right arrow",
+            "progress": 75,
+            "comfort": "comfortable",
+            "year": "3"
+        },
+        {
+            "name": "SemanticUI",
+            "icon": "semantic",
+            "progress": 75,
+            "comfort": "comfortable",
+            "year": "3"
+        },
+        {
+            "name": "AJAX",
+            "icon": "ajax",
+            "progress": 50,
+            "comfort": "capable",
+            "year": "2"
+        }
+    ]
+}

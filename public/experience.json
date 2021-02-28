@@ -1,0 +1,30 @@
+{
+    "jobs":
+    [
+        {
+            "name": "Boulder QA",
+            "title": "QA Analyst",
+            "progress": 100,
+            "indication": false,
+            "year": "January 2020 - February 2021",
+            "work": ["QA on over 1000 test cases", "Daily utilization of Google G-Suite, JIRA, Slack, Microsoft Teams for distributed team work", "Manipulated E-Commerce app on 5 devices of iOS and Android OS versions", "Found and fixed over 20 bugs in QA support", "Made use of Sitecore and Frontify for managing and testing web designs"]
+        },
+        {
+            "name": "Activision",
+            "title": "Analytics Intern",
+            "progress": 100,
+            "indication": true,
+            "year": "September 2018 - August 2019",
+            "work": ["Active daily use of Python 3, SQL, Presto, Flask, React, Javascript, D3, Elasticsearch", "Collaborated with the Analytics team on a variety of gameplay data tools to provide timely and actionable insights", "Maintained and supported a customized deployment of the open-source Redash dashboarding platform", "Created, iterated, and maintained an internal web tool to provide full-text search of 25174 versions of 2115 data schemas", "Performed Numerous statistical analyses on player engagement data, including in-game-time for over 38million users", "Implemented backend data pipeline to ingest various social media feeds (Reddit, Twitter) with low latency and perform realtme sentiment analysis and identify key influencers"]
+
+        },
+        {
+            "name": "Early College of Arvada",
+            "title": "Community Outreach Intern",
+            "progress": 100,
+            "indication": false,
+            "year": "June 2017 - August 2017",
+            "work": ["Created 35 advertising materials and tactics for local events", "Increased enrollment by 18%", "Led over 15 community events and local organization meets", "Provided mentorship to 12 recent graduates on their transition to college", "Produced over 50 weekly and event-based social media content"]
+        }
+    ]
+}

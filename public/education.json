@@ -1,0 +1,21 @@
+{
+    "schools":
+    [
+        {
+            "name": "Harvard University",
+            "title": "Bachelor's in Computer Science",
+            "progress": 80,
+            "indication": true,
+            "year": "Senior",
+            "work": ["Statistics", "Systems Programming and Machine Organization", "Networking at Scale", "Abstraction and Design in Computing", "Discrete Mathematics", "Theoretical Computer Science", "Systems Development", "Spanish"]
+        },
+        {
+            "name": "Early College of Arvada",
+            "title": "High School Diploma",
+            "progress": 100,
+            "indication": false,
+            "year": "Graduated: 2016",
+            "work": ["Valedictorian", "National Honor Society", "Director's Recognition of Valor", "Director's Recognition of Perserverance", "President of Construo: Literary Magazine"]
+        }
+    ]
+}

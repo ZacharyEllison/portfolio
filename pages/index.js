@@ -5,15 +5,6 @@ import Layout from '../components/layout'
 export default function Home() {
   return (
     <Layout>
-      <Head>
-        <meta
-          name="viewport"
-          content="minimum-scale=1, initial-scale=1, width=device-width"
-        />
-        <title>Zachary Ellison</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <main className={styles.main}>
         {/* <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
@@ -54,7 +45,6 @@ export default function Home() {
           </a>
         </div> */}
       </main>
-
     </Layout>
   )
 }
