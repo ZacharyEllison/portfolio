@@ -1,7 +1,8 @@
 import React from 'react'
 import Alert from './alert'
 import Link from 'next/link'
-import { Menu, Header, Button, Sidebar } from 'semantic-ui-react'
+import { Menu, Header, Button, Sidebar, Icon } from 'semantic-ui-react'
+import { LFW } from '../lib/constants'
 
 export default function Headbar() {
     const [visible, setVisible] = React.useState(false)
@@ -9,7 +10,19 @@ export default function Headbar() {
     return (
         <div>
 
-        <Button size='huge' icon='sun' onClick={handleClick}/>
+        <Button animated onClick={handleClick}>
+            <Button.Content hidden >
+                <Icon name='sun'/>
+            </Button.Content>
+            <Button.Content visible >
+                {LFW ? 
+                    <Icon.Group size='large'>
+                        <Icon name='bars' />
+                        <Icon corner='top right' name='exclamation circle' color='blue'/>
+                    </Icon.Group> : 
+                    <Icon name='bars' />}
+            </Button.Content>
+        </Button>
         <Sidebar as={Menu} 
             onHide={() => setVisible(false)}
             width='thin' visible={visible} 

@@ -6,13 +6,6 @@ import { Segment, Image, Header, Grid } from 'semantic-ui-react'
 export default function NotFound() {
     return (
         <Layout>
-            <Head>
-                <meta
-                name="viewport"
-                content="minimum-scale=1, initial-scale=1, width=device-width"/>
-                <title>Zachary Ellison</title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
             <main>
                 <Grid rows={1} columns={1}>
                     <Grid.Column>

@@ -1,15 +1,13 @@
-import styles from '../styles/Home.module.css'
+import { Header } from 'semantic-ui-react'
+import Layout from '../components/layout'
 
 
 export default function Hello() {
     return (
-        <div className={styles.container}>
-
-            <main className={styles.main}>
-                <h1 className={styles.title}>
-                    Hello!
-                </h1>
+        <Layout>
+            <main>
+                <Header className='centered' content='Hello!' />
             </main>
-        </div>
+        </Layout>
     )
 }
