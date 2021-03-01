@@ -111,14 +111,14 @@
         },
         {
             "name": "TravisCI",
-            "icon": "travisci",
+            "icon": "hourglass two",
             "progress": 50,
             "comfort": "capable",
             "year": "1"
         },
         {
             "name": "codecov",
-            "icon": "codecov",
+            "icon": "code",
             "progress": 50,
             "comfort": "capable",
             "year": "1"
@@ -135,28 +135,28 @@
     [
         {
             "name": "PostgreSQL",
-            "icon": "postgres",
+            "icon": "database",
             "progress": 75,
             "comfort": "comfortable",
             "year": "3"
         },
         {
             "name": "SQLite",
-            "icon": "sqlite",
+            "icon": "database",
             "progress": 75,
             "comfort": "comfortable",
             "year": "2"
         },
         {
             "name": "MongoDB",
-            "icon": "mongodb",
+            "icon": "database",
             "progress": 25,
             "comfort": "workable",
             "year": "1"
         },
         {
             "name": "Elasticsearch",
-            "icon": "elasticsearch",
+            "icon": "database",
             "progress": 50,
             "comfort": "capable",
             "year": "2"
@@ -173,35 +173,35 @@
         },
         {
             "name": "Pandas",
-            "icon": "panda",
+            "icon": "qq",
             "progress": 75,
             "comfort": "comfortable",
             "year": "3"
         },
         {
             "name": "Matplotlib",
-            "icon": "right arrow",
+            "icon": "calculator",
             "progress": 50,
             "comfort": "capable",
             "year": "2"
         },
         {
             "name": "NumPy",
-            "icon": "right arrow",
+            "icon": "calculator",
             "progress": 75,
             "comfort": "comfortable",
             "year": "3"
         },
         {
             "name": "SemanticUI",
-            "icon": "semantic",
+            "icon": "react",
             "progress": 75,
             "comfort": "comfortable",
             "year": "3"
         },
         {
             "name": "AJAX",
-            "icon": "ajax",
+            "icon": "fax",
             "progress": 50,
             "comfort": "capable",
             "year": "2"
