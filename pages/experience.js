@@ -8,7 +8,7 @@ export default function Home() {
       <main>
         <Segment>
           <Header as='h2' content='Languages' />
-          <Table celled fluid='true'>
+          <Table>
             <Table.Header>
               <Table.Row>
                 <Table.HeaderCell content='Language' icon='right arrow'/>
@@ -29,7 +29,7 @@ export default function Home() {
         </Segment>
         <Segment>
           <Header as='h2' content='Tools' />
-          <Table celled fluid='true'>
+          <Table>
             <Table.Header>
               <Table.Row>
                 <Table.HeaderCell content='Tool' icon='wrench'/>
@@ -50,7 +50,7 @@ export default function Home() {
         </Segment>
         <Segment>
           <Header as='h2' content='Databases' />
-          <Table celled fluid='true'>
+          <Table>
             <Table.Header>
               <Table.Row>
                 <Table.HeaderCell content='Database' icon='database'/>
@@ -71,7 +71,7 @@ export default function Home() {
         </Segment>
         <Segment>
           <Header as='h2' content='Frameworks' />
-          <Table celled fluid='true'>
+          <Table>
             <Table.Header>
               <Table.Row>
                 <Table.HeaderCell content='Framework' icon='book'/>
