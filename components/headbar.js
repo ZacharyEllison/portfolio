@@ -32,9 +32,11 @@ export default function Headbar() {
                 <Link href='/'><Header content='Zachary Ellison'/></Link>
             </Menu.Item>
             <Menu.Item link>
+                {/* School and personal info */}
                 <Link href="/about"><Header content='About'/></Link>
             </Menu.Item>
             <Menu.Item link>
+                {/* Work and Tech */}
                 <Link href="/experience"><Header content='Experience'/></Link>
             </Menu.Item>
             <Menu.Item link>

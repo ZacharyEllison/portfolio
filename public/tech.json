@@ -32,14 +32,14 @@
         {
             "name": "OCaml",
             "icon": "arrow right",
-            "progress": 75,
+            "progress": 50,
             "comfort": "capable",
             "year": "2"
         },
         {
             "name": "Lua",
             "icon": "arrow right",
-            "progress": 75,
+            "progress": 50,
             "comfort": "capable",
             "year": "2"
         },
